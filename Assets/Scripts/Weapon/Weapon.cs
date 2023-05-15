@@ -37,7 +37,6 @@ public class Weapon : MonoBehaviour
         {
             // Enable the weapon and the box collider, and set a timer to disable the weapon.
             EnableWeapon();
-            boxCollider.enabled = true;
             Invoke("DisableWeapon", attackDuration);
 
             // Set a timer to reset the weapon's attack ability.
