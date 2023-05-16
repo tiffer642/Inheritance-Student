@@ -609,6 +609,8 @@ MonoBehaviour:
   defaultWeapon: {fileID: 1723971755510622249, guid: d80f4c99058a72c4495d56c5077e5406, type: 3}
   equippedWeapon: {fileID: 0}
   weaponSlot: {fileID: 504766509}
+  health: 90
+  maxHealth: 100
 --- !u!58 &1148014235
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -7615,3 +7617,60 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1001 &1523261927171011695
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1523261927144166839, guid: 0b54466ee0ef5b6488954a432c81a772, type: 3}
+      propertyPath: m_RootOrder
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 1523261927144166839, guid: 0b54466ee0ef5b6488954a432c81a772, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 2.09
+      objectReference: {fileID: 0}
+    - target: {fileID: 1523261927144166839, guid: 0b54466ee0ef5b6488954a432c81a772, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 1523261927144166839, guid: 0b54466ee0ef5b6488954a432c81a772, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1523261927144166839, guid: 0b54466ee0ef5b6488954a432c81a772, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1523261927144166839, guid: 0b54466ee0ef5b6488954a432c81a772, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1523261927144166839, guid: 0b54466ee0ef5b6488954a432c81a772, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1523261927144166839, guid: 0b54466ee0ef5b6488954a432c81a772, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1523261927144166839, guid: 0b54466ee0ef5b6488954a432c81a772, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1523261927144166839, guid: 0b54466ee0ef5b6488954a432c81a772, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1523261927144166839, guid: 0b54466ee0ef5b6488954a432c81a772, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1523261927144166844, guid: 0b54466ee0ef5b6488954a432c81a772, type: 3}
+      propertyPath: m_Name
+      value: FreezePickUp
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 0b54466ee0ef5b6488954a432c81a772, type: 3}

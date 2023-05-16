@@ -5,6 +5,7 @@ using UnityEngine;
 public class Enemy : MonoBehaviour
 {
     public float speed;
+    public float defaultSpeed;
     public bool canMove = true;
     public float health;
     public float stunTime;
@@ -20,6 +21,7 @@ public class Enemy : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
         enemyCollider = GetComponent<Collider2D>();
         gm = GameObject.FindObjectOfType<GameManager>();
+        defaultSpeed = speed;
     }
 
     // Update is called once per frame
